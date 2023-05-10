@@ -1372,6 +1372,7 @@ input[name="slide"] {
     .swiper {
         width: 90%;
         margin: 0 auto;
+        height: 60vh;
     }
 }
 
@@ -1379,6 +1380,22 @@ input[name="slide"] {
     .photo__slider,
     .hidden {
         display: none;
+    }
+    
+    .swiper {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 620px) {
+    .swiper {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .swiper {
+        height: 25vh;
     }
 }
 
