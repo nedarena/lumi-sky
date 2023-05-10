@@ -9,10 +9,10 @@ const swiper = new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-    effect: 'cube',
-    cubeEffect: {
-        slideShadows: false
-    },
+    effect: "cards",
+    fadeEffect: {
+        crossFade : true
+     },
 });
 
 // когда пользователь прокрутит вниз от начала экрана 1200 пикселей нужно кнопку показать
