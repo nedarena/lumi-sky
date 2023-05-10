@@ -11,7 +11,7 @@ const swiper = new Swiper('.swiper', {
       },
     effect: 'cube',
     cubeEffect: {
-        slideShadows: false,
+        slideShadows: false
     },
 });
 
