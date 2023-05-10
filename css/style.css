@@ -539,6 +539,10 @@ header, footer {
     .portfolio-item:hover {
         transform: scale(1.1);
     }
+    
+    .portfolio {
+        padding: 7% 5%;
+    }
 }
 
 /* наши услуги */
