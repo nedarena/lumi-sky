@@ -314,6 +314,7 @@ header, footer {
     padding: 40px;
     color: var(--dark-gray);
     font-weight: 700;
+    transition: all 0.3s;
 }
 
 .number-item__link:hover {
